@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "substitutions": {
+    "pressure_cooker": [
+      { "id": "deep_pot", "note": "Simmer covered about 20 min longer until dal or vegetables are soft; top up water as needed." }
+    ],
+    "kadai": [
+      { "id": "deep_pot", "note": "Any heavy-bottomed pot works for deep-frying and simmering." },
+      { "id": "frying_pan", "note": "Fine for shallow-frying and sauteing; less depth for deep-frying." }
+    ],
+    "tawa": [
+      { "id": "dosa_tawa", "note": "A flat dosa griddle works for rotis and phulkas." },
+      { "id": "frying_pan", "note": "A flat non-stick pan stands in for a griddle; watch for hot spots." }
+    ],
+    "dosa_tawa": [
+      { "id": "tawa", "note": "A regular flat griddle works; season well so batter does not stick." },
+      { "id": "frying_pan", "note": "Use a wide flat non-stick pan; spread batter thinner." }
+    ],
+    "mixer_grinder": [
+      { "id": "blender", "note": "Works for wet pastes and chutneys; add a little water to help it turn." },
+      { "id": "food_processor", "note": "Good for coarse pastes and chopping; less smooth for fine spice powders." },
+      { "id": "mortar_pestle", "note": "Pound small quantities of spices or ginger-garlic by hand." }
+    ],
+    "wet_grinder": [
+      { "id": "mixer_grinder", "note": "Grind idli/dosa batter in small batches; pulse and rest to avoid overheating." },
+      { "id": "blender", "note": "Grind in small batches with cold water; batter is slightly less fluffy." }
+    ],
+    "blender": [
+      { "id": "mixer_grinder", "note": "Handles the same wet grinding jobs." },
+      { "id": "food_processor", "note": "For thicker mixes; add liquid for smooth blends." }
+    ],
+    "food_processor": [
+      { "id": "mixer_grinder", "note": "Use the dry/chutney jar for chopping and coarse pastes." },
+      { "id": "knife", "note": "Chop by hand when the quantity is small." }
+    ],
+    "idli_steamer": [
+      { "id": "pressure_cooker", "note": "Steam without the weight/whistle so pressure does not build." },
+      { "id": "deep_pot", "note": "Place the idli stand on a trivet over a little water and cover to steam." }
+    ],
+    "idli_stand": [
+      { "id": "mixing_bowl", "note": "Steam batter in small greased steel bowls or cups instead of moulds." }
+    ],
+    "appam_pan": [
+      { "id": "kadai", "note": "Use a small deep kadai; swirl batter up the sides for the lacy edge." }
+    ],
+    "paniyaram_pan": [
+      { "id": "kadai", "note": "Shallow-fry spoonfuls of batter in a kadai; you lose the round shape." }
+    ],
+    "mortar_pestle": [
+      { "id": "mixer_grinder", "note": "Pulse briefly for a coarse crush; do not over-grind to a paste." },
+      { "id": "blender", "note": "Pulse in short bursts for small quantities." }
+    ],
+    "rolling_pin": [
+      { "id": "steel_tumbler", "note": "Use the smooth side of a cylindrical tumbler or bottle to roll dough." }
+    ],
+    "rolling_board": [
+      { "id": "chopping_board", "note": "A clean flat board or the counter dusted with flour works fine." }
+    ],
+    "grater": [
+      { "id": "knife", "note": "Finely chop or julienne by hand instead of grating." },
+      { "id": "food_processor", "note": "Use the grating/shredding disc if available." }
+    ],
+    "whisk": [
+      { "id": "blender", "note": "Blend or froth curd, batter or decoction quickly." },
+      { "id": "mixing_bowl", "note": "Beat with a fork against the side of the bowl for small quantities." }
+    ],
+    "oven": [
+      { "id": "kadai", "note": "Dry-roast or bake in a covered heavy kadai over low heat with a little salt at the base." },
+      { "id": "microwave", "note": "For reheating and quick bakes; will not brown or crisp like an oven." }
+    ],
+    "colander": [
+      { "id": "strainer", "note": "Drain smaller quantities through a fine sieve." }
+    ],
+    "strainer": [
+      { "id": "colander", "note": "For coarse straining; fine particles may pass through." }
+    ],
+    "slotted_spoon": [
+      { "id": "ladle", "note": "Tilt to drain oil against the pan side; slower but works." },
+      { "id": "spatula", "note": "Lift fried items and let excess oil drip off." }
+    ],
+    "saucepan": [
+      { "id": "deep_pot", "note": "Any small heavy pot works for boiling milk or making decoction." },
+      { "id": "kadai", "note": "Fine for heating liquids in small batches." }
+    ],
+    "tongs": [
+      { "id": "spatula", "note": "Flip rotis or fried items with a flat turner instead." }
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "substitutions": {
+    "toor_dal": [
+      { "id": "masoor_dal", "quality": 0.8, "note": "Cooks faster; slightly softer, sweeter than toor." },
+      { "id": "moong_dal", "quality": 0.75, "note": "Milder and lighter; reduce cooking time." },
+      { "id": "chana_dal", "quality": 0.65, "note": "Nuttier and firmer; soak first and cook longer." }
+    ],
+    "masoor_dal": [
+      { "id": "moong_dal", "quality": 0.85, "note": "Both cook quickly; moong is a touch milder." },
+      { "id": "toor_dal", "quality": 0.8, "note": "Earthier; needs a little longer to soften." }
+    ],
+    "moong_dal": [
+      { "id": "masoor_dal", "quality": 0.85, "note": "Similar quick-cooking split lentil." },
+      { "id": "toor_dal", "quality": 0.7, "note": "Heavier flavour; increase simmer time." }
+    ],
+    "chana_dal": [
+      { "id": "toor_dal", "quality": 0.6, "note": "Softer and quicker; loses the firm bite of chana." },
+      { "id": "moong_dal", "quality": 0.55, "note": "Milder and softer; works in tempering, not for crunch." }
+    ],
+    "urad_dal": [
+      { "id": "moong_dal", "quality": 0.5, "note": "For vada/batter body only; lacks urad's binding stickiness." }
+    ],
+    "whole_moong": [
+      { "id": "moong_dal", "quality": 0.65, "note": "Split cooks much faster; skip the sprouting step." }
+    ],
+    "kabuli_chana": [
+      { "id": "black_chana", "quality": 0.75, "note": "Nuttier, firmer, darker gravy; soak overnight." }
+    ],
+    "black_chana": [
+      { "id": "kabuli_chana", "quality": 0.7, "note": "Softer and lighter; milder earthy flavour." }
+    ],
+    "rajma": [
+      { "id": "black_chana", "quality": 0.55, "note": "Different texture but holds up in thick gravies." }
+    ],
+    "green_peas_dried": [
+      { "id": "green_peas", "quality": 0.7, "note": "Fresh/frozen peas skip soaking; add near the end." }
+    ],
+    "green_peas": [
+      { "id": "green_peas_dried", "quality": 0.6, "note": "Soak and boil dried peas before use." }
+    ],
+    "cooking_oil": [
+      { "id": "coconut_oil", "quality": 0.85, "note": "Adds a coastal aroma; ideal for Kerala/Konkan dishes." },
+      { "id": "sesame_oil", "quality": 0.8, "note": "Nutty gingelly note; classic for pickles and Chettinad." },
+      { "id": "mustard_oil", "quality": 0.75, "note": "Pungent; heat to smoking first to mellow it." },
+      { "id": "ghee", "quality": 0.8, "note": "Richer flavour; lower smoke point, avoid deep-frying." },
+      { "id": "butter", "quality": 0.6, "note": "For sauteing only; burns easily, watch the heat." }
+    ],
+    "coconut_oil": [
+      { "id": "cooking_oil", "quality": 0.8, "note": "Neutral; loses the coconut aroma." },
+      { "id": "sesame_oil", "quality": 0.65, "note": "Different but equally regional flavour." }
+    ],
+    "mustard_oil": [
+      { "id": "cooking_oil", "quality": 0.7, "note": "Neutral; misses the sharp pungency of mustard oil." },
+      { "id": "sesame_oil", "quality": 0.6, "note": "Nutty substitute for Bengali/Odia dishes." }
+    ],
+    "sesame_oil": [
+      { "id": "cooking_oil", "quality": 0.7, "note": "Neutral; add a few sesame seeds for aroma." },
+      { "id": "coconut_oil", "quality": 0.6, "note": "Regional swap in South Indian cooking." }
+    ],
+    "ghee": [
+      { "id": "butter", "quality": 0.8, "note": "Use unsalted; clarify by skimming for a closer match." },
+      { "id": "cooking_oil", "quality": 0.6, "note": "Loses the nutty richness; fine for everyday cooking." },
+      { "id": "coconut_oil", "quality": 0.6, "note": "Vegan option; adds coconut aroma." }
+    ],
+    "butter": [
+      { "id": "ghee", "quality": 0.85, "note": "Use a bit less; ghee is pure fat with no water." }
+    ],
+    "green_chili": [
+      { "id": "dried_red_chili", "quality": 0.7, "note": "Deeper, smokier heat; less fresh sharpness." },
+      { "id": "red_chili_powder", "quality": 0.6, "note": "Add to taste; no fresh bite, adjust for colour too." },
+      { "id": "capsicum", "quality": 0.3, "note": "Only for bulk/colour when heat is not wanted; no pungency." }
+    ],
+    "dried_red_chili": [
+      { "id": "red_chili_powder", "quality": 0.75, "note": "Roughly 1 chili to 1/2 tsp powder; add during tempering carefully." },
+      { "id": "green_chili", "quality": 0.6, "note": "Brighter, fresher heat; add later in cooking." }
+    ],
+    "red_chili_powder": [
+      { "id": "kashmiri_chili_powder", "quality": 0.75, "note": "Milder with more colour; increase quantity for same heat." },
+      { "id": "dried_red_chili", "quality": 0.65, "note": "Grind or use whole; adjust quantity to taste." }
+    ],
+    "kashmiri_chili_powder": [
+      { "id": "red_chili_powder", "quality": 0.6, "note": "Hotter and less vivid; use less to keep heat in check." }
+    ],
+    "tamarind": [
+      { "id": "lemon", "quality": 0.7, "note": "Brighter sourness; add at the end off the heat." },
+      { "id": "amchur", "quality": 0.65, "note": "Use about 1 tsp per lime-sized tamarind; no liquid added." },
+      { "id": "kokum", "quality": 0.7, "note": "Fruity tang; common in coastal gravies." },
+      { "id": "raw_mango", "quality": 0.55, "note": "Seasonal souring; adds body and pulp." }
+    ],
+    "lemon": [
+      { "id": "tamarind", "quality": 0.65, "note": "Deeper, earthier sour; dissolve pulp in water first." },
+      { "id": "amchur", "quality": 0.6, "note": "Dry tang without liquid; add a pinch at a time." },
+      { "id": "vinegar", "quality": 0.5, "note": "Sharper and harsher; use sparingly." }
+    ],
+    "amchur": [
+      { "id": "lemon", "quality": 0.7, "note": "Use a squeeze in place of a pinch; adds moisture." },
+      { "id": "tamarind", "quality": 0.6, "note": "Wetter and darker; dissolve and reduce." }
+    ],
+    "kokum": [
+      { "id": "tamarind", "quality": 0.7, "note": "Similar tang; use pulp, adjust to taste." },
+      { "id": "raw_mango", "quality": 0.5, "note": "Seasonal fruity souring for coastal curries." }
+    ],
+    "coconut": [
+      { "id": "grated_coconut", "quality": 0.95, "note": "Ready grated; roughly one cup per half a fresh coconut." },
+      { "id": "dry_coconut", "quality": 0.7, "note": "Reconstitute or roast; more concentrated, less moisture." }
+    ],
+    "grated_coconut": [
+      { "id": "coconut", "quality": 0.95, "note": "Grate fresh coconut just before use." },
+      { "id": "dry_coconut", "quality": 0.7, "note": "Soak or use as is for chutney; slightly chewy." },
+      { "id": "coconut_milk", "quality": 0.55, "note": "For gravies only; adds liquid, not texture." }
+    ],
+    "dry_coconut": [
+      { "id": "grated_coconut", "quality": 0.75, "note": "Fresh is moister; roast lightly to mimic copra depth." },
+      { "id": "coconut", "quality": 0.75, "note": "Grate fresh; use a bit more for the same richness." }
+    ],
+    "coconut_milk": [
+      { "id": "grated_coconut", "quality": 0.6, "note": "Grind grated coconut with warm water and strain." },
+      { "id": "milk", "quality": 0.45, "note": "Last resort; loses coconut flavour, thin the gravy less." },
+      { "id": "cream", "quality": 0.5, "note": "For richness only; no coconut note, use diluted." }
+    ],
+    "jaggery": [
+      { "id": "sugar", "quality": 0.75, "note": "Use slightly less; lacks the caramel, mineral depth." },
+      { "id": "palm_jaggery", "quality": 0.9, "note": "Darker and deeper; near one-to-one swap." }
+    ],
+    "palm_jaggery": [
+      { "id": "jaggery", "quality": 0.9, "note": "Milder cane flavour; near one-to-one swap." },
+      { "id": "sugar", "quality": 0.65, "note": "Cleaner sweetness; misses the smoky palm note." }
+    ],
+    "sugar": [
+      { "id": "jaggery", "quality": 0.7, "note": "Adds colour and depth; use a little more, dissolve well." },
+      { "id": "honey", "quality": 0.55, "note": "Add off the heat; increases moisture, reduce other liquid." }
+    ],
+    "curd": [
+      { "id": "milk", "quality": 0.5, "note": "For gravies; add a souring agent to mimic tang, do not boil hard." },
+      { "id": "cream", "quality": 0.5, "note": "Richer, non-tangy; good for kormas, add lemon for tartness." }
+    ],
+    "milk": [
+      { "id": "coconut_milk", "quality": 0.6, "note": "Vegan; adds coconut flavour, use thin milk." },
+      { "id": "curd", "quality": 0.5, "note": "Whisk with water to loosen; adds tang." }
+    ],
+    "cream": [
+      { "id": "milk", "quality": 0.5, "note": "Thinner; simmer to reduce or add a little cashew paste." },
+      { "id": "coconut_milk", "quality": 0.55, "note": "Vegan richness; adds coconut note." },
+      { "id": "curd", "quality": 0.45, "note": "Whisk well and add off heat to avoid splitting." }
+    ],
+    "paneer": [
+      { "id": "khoa", "quality": 0.35, "note": "Only for crumbled fillings/sweets, not for cubes." }
+    ],
+    "khoa": [
+      { "id": "condensed_milk", "quality": 0.5, "note": "For sweets; much sweeter, cut the added sugar." },
+      { "id": "paneer", "quality": 0.4, "note": "Crumble and cook down with a little milk and sugar." }
+    ],
+    "rice_flour": [
+      { "id": "corn_flour", "quality": 0.6, "note": "For crispness/binding; corn flour is more starchy." }
+    ],
+    "corn_flour": [
+      { "id": "rice_flour", "quality": 0.6, "note": "For coating crispness; less thickening power in sauces." },
+      { "id": "maida", "quality": 0.5, "note": "Thickens gravies; makes them cloudier, cook longer." }
+    ],
+    "maida": [
+      { "id": "wheat_flour", "quality": 0.6, "note": "Denser, browner result; fine for rotis and thickening." }
+    ],
+    "wheat_flour": [
+      { "id": "maida", "quality": 0.5, "note": "Lighter and less nutritious; adjust water in doughs." }
+    ],
+    "rava": [
+      { "id": "poha", "quality": 0.35, "note": "For batters only; grind poha, texture differs." }
+    ],
+    "poha": [
+      { "id": "puffed_rice", "quality": 0.4, "note": "Lighter and crispier; loses poha's soft body." }
+    ],
+    "sambar_powder": [
+      { "id": "rasam_powder", "quality": 0.5, "note": "Rough swap; rasam powder is more peppery, add coriander and chili." }
+    ],
+    "rasam_powder": [
+      { "id": "sambar_powder", "quality": 0.5, "note": "Rough swap; sambar powder is milder, add extra pepper and cumin." }
+    ],
+    "coriander_leaves": [
+      { "id": "mint_leaves", "quality": 0.5, "note": "Stronger, cooler flavour; use less as a garnish." }
+    ],
+    "mint_leaves": [
+      { "id": "coriander_leaves", "quality": 0.5, "note": "Milder; loses the cooling menthol note." }
+    ],
+    "fenugreek_leaves": [
+      { "id": "kasuri_methi", "quality": 0.75, "note": "Use about a third the amount; crush and add near the end." },
+      { "id": "spinach", "quality": 0.4, "note": "For bulk greens only; add a pinch of fenugreek seeds for bitterness." }
+    ],
+    "kasuri_methi": [
+      { "id": "fenugreek_leaves", "quality": 0.7, "note": "Use roughly three times the amount of fresh leaves." }
+    ],
+    "spinach": [
+      { "id": "amaranth_greens", "quality": 0.85, "note": "Cooks similarly; slightly earthier." },
+      { "id": "fenugreek_leaves", "quality": 0.55, "note": "Adds bitterness; blanch and use less." }
+    ],
+    "shallots": [
+      { "id": "onion", "quality": 0.7, "note": "Use regular onion chopped fine; less sweet and intense." }
+    ],
+    "onion": [
+      { "id": "shallots", "quality": 0.8, "note": "Sweeter and more aromatic; use more by weight." }
+    ],
+    "ginger_garlic_paste": [
+      { "id": "ginger", "quality": 0.75, "note": "Combine with garlic; grind fresh in equal parts." },
+      { "id": "garlic", "quality": 0.75, "note": "Combine with ginger; grind fresh in equal parts." }
+    ],
+    "ginger": [
+      { "id": "dry_ginger", "quality": 0.5, "note": "Use about a quarter tsp powder per inch of fresh; no moisture." }
+    ],
+    "dry_ginger": [
+      { "id": "ginger", "quality": 0.55, "note": "Use grated fresh ginger; add more, it is milder." }
+    ],
+    "cashew": [
+      { "id": "almonds", "quality": 0.7, "note": "Blanch and grind for a pale, rich gravy paste." },
+      { "id": "peanut", "quality": 0.6, "note": "Roast and skin; nuttier, good in chutneys and pastes." },
+      { "id": "poppy_seeds", "quality": 0.55, "note": "For white gravy thickening; soak and grind." }
+    ],
+    "peanut": [
+      { "id": "cashew", "quality": 0.65, "note": "Creamier, milder; good in chutneys and pastes." },
+      { "id": "sesame_seeds", "quality": 0.5, "note": "For chutney body; toast first, more bitter." }
+    ],
+    "sesame_seeds": [
+      { "id": "poppy_seeds", "quality": 0.6, "note": "For thickening gravies; poppy is milder, soak first." },
+      { "id": "peanut", "quality": 0.5, "note": "For chutney bulk; roast, coarser texture." }
+    ],
+    "poppy_seeds": [
+      { "id": "cashew", "quality": 0.6, "note": "For gravy thickening/whiteness; richer, use less." },
+      { "id": "sesame_seeds", "quality": 0.55, "note": "Nuttier; toast lightly before grinding." }
+    ],
+    "bottle_gourd": [
+      { "id": "ridge_gourd", "quality": 0.8, "note": "Similar mild gourd; peel ridges, cooks a bit faster." },
+      { "id": "snake_gourd", "quality": 0.75, "note": "Comparable watery texture in kootu and curries." },
+      { "id": "ash_gourd", "quality": 0.7, "note": "Milder and softer; good in dals and stews." }
+    ],
+    "ridge_gourd": [
+      { "id": "bottle_gourd", "quality": 0.8, "note": "Milder; use in the same curries." },
+      { "id": "snake_gourd", "quality": 0.8, "note": "Similar texture; interchangeable in kootu." }
+    ],
+    "snake_gourd": [
+      { "id": "ridge_gourd", "quality": 0.8, "note": "Peel ridges; near interchangeable." },
+      { "id": "bottle_gourd", "quality": 0.75, "note": "Milder, firmer; works in the same dishes." }
+    ],
+    "potato": [
+      { "id": "raw_banana", "quality": 0.6, "note": "Holds shape well in curries; par-boil, less starchy." },
+      { "id": "colocasia", "quality": 0.55, "note": "Similar starchy bite; par-boil to reduce stickiness." },
+      { "id": "sweet_potato", "quality": 0.45, "note": "Adds sweetness; use where a sweet note is acceptable." }
+    ],
+    "raw_banana": [
+      { "id": "potato", "quality": 0.6, "note": "Softer and starchier; reduce cooking time." },
+      { "id": "colocasia", "quality": 0.55, "note": "Similar firm texture in dry curries." }
+    ],
+    "colocasia": [
+      { "id": "potato", "quality": 0.6, "note": "Less sticky; par-boil for a similar bite." },
+      { "id": "yam", "quality": 0.6, "note": "Firmer tuber; comparable in masala fries." }
+    ],
+    "yam": [
+      { "id": "colocasia", "quality": 0.6, "note": "Softer; adjust cooking time." },
+      { "id": "raw_banana", "quality": 0.5, "note": "Firmer alternative in dry curries." }
+    ],
+    "cluster_beans": [
+      { "id": "beans", "quality": 0.65, "note": "French beans are less bitter; cook a little less." }
+    ],
+    "chicken": [
+      { "id": "paneer", "quality": 0.5, "note": "Vegetarian swap in masala gravies; add later, do not overcook." },
+      { "id": "mushroom", "quality": 0.5, "note": "Meaty vegetarian option; releases water, saute first." }
+    ],
+    "prawns": [
+      { "id": "fish", "quality": 0.6, "note": "Use firm fish chunks; adjust cooking time to avoid breaking." }
+    ],
+    "vinegar": [
+      { "id": "lemon", "quality": 0.6, "note": "Milder and fruitier; use more, add off the heat." }
+    ]
+  }
+}

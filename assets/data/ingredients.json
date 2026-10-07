@@ -1,0 +1,1991 @@
+{
+  "version": 1,
+  "ingredients": [
+    {
+      "id": "raw_rice",
+      "name": "Raw Rice",
+      "category": "rice",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pacharisi",
+        "arua chaula",
+        "sona masoori"
+      ],
+      "parQuantity": 5000,
+      "isCore": true
+    },
+    {
+      "id": "idli_rice",
+      "name": "Idli Rice",
+      "category": "rice",
+      "defaultUnit": "grams",
+      "aliases": [
+        "idli arisi",
+        "parboiled rice",
+        "ukda chawal"
+      ],
+      "parQuantity": 2000,
+      "isCore": true
+    },
+    {
+      "id": "basmati_rice",
+      "name": "Basmati Rice",
+      "category": "rice",
+      "defaultUnit": "grams",
+      "aliases": [
+        "basmati",
+        "long grain rice"
+      ],
+      "parQuantity": 2000,
+      "isCore": true
+    },
+    {
+      "id": "boiled_rice",
+      "name": "Boiled Rice",
+      "category": "rice",
+      "defaultUnit": "grams",
+      "aliases": [
+        "puzhungal arisi",
+        "usuna chaula",
+        "parboiled rice"
+      ]
+    },
+    {
+      "id": "poha",
+      "name": "Poha (Flattened Rice)",
+      "category": "grain",
+      "defaultUnit": "grams",
+      "aliases": [
+        "aval",
+        "chuda",
+        "chivda",
+        "flattened rice",
+        "beaten rice"
+      ]
+    },
+    {
+      "id": "puffed_rice",
+      "name": "Puffed Rice",
+      "category": "grain",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pori",
+        "mudhi",
+        "murmura"
+      ]
+    },
+    {
+      "id": "rava",
+      "name": "Rava (Semolina)",
+      "category": "grain",
+      "defaultUnit": "grams",
+      "aliases": [
+        "sooji",
+        "suji",
+        "semolina",
+        "chiroti rava"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "wheat_flour",
+      "name": "Wheat Flour (Atta)",
+      "category": "flour",
+      "defaultUnit": "grams",
+      "aliases": [
+        "atta",
+        "godhumai maavu",
+        "gahama atta",
+        "whole wheat flour"
+      ],
+      "parQuantity": 5000,
+      "isCore": true
+    },
+    {
+      "id": "maida",
+      "name": "Maida (All-Purpose Flour)",
+      "category": "flour",
+      "defaultUnit": "grams",
+      "aliases": [
+        "all purpose flour",
+        "refined flour",
+        "plain flour"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "rice_flour",
+      "name": "Rice Flour",
+      "category": "flour",
+      "defaultUnit": "grams",
+      "aliases": [
+        "arisi maavu",
+        "chaula atta",
+        "chawal ka atta"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "besan",
+      "name": "Besan (Gram Flour)",
+      "category": "flour",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kadalai maavu",
+        "buta besana",
+        "chickpea flour",
+        "gram flour"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "ragi_flour",
+      "name": "Ragi Flour (Finger Millet)",
+      "category": "flour",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kezhvaragu maavu",
+        "mandia",
+        "finger millet flour",
+        "nachni"
+      ]
+    },
+    {
+      "id": "corn_flour",
+      "name": "Corn Flour",
+      "category": "flour",
+      "defaultUnit": "grams",
+      "aliases": [
+        "cornstarch",
+        "makkai ka atta"
+      ]
+    },
+    {
+      "id": "sabudana",
+      "name": "Sabudana (Tapioca Pearls)",
+      "category": "grain",
+      "defaultUnit": "grams",
+      "aliases": [
+        "javvarisi",
+        "sago",
+        "saggu"
+      ]
+    },
+    {
+      "id": "toor_dal",
+      "name": "Toor Dal",
+      "category": "dal",
+      "defaultUnit": "grams",
+      "aliases": [
+        "arhar",
+        "thuvaram paruppu",
+        "harada dali",
+        "pigeon pea",
+        "tuvar dal"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "moong_dal",
+      "name": "Moong Dal",
+      "category": "dal",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pasi paruppu",
+        "muga dali",
+        "yellow lentil",
+        "split green gram"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "masoor_dal",
+      "name": "Masoor Dal",
+      "category": "dal",
+      "defaultUnit": "grams",
+      "aliases": [
+        "mysore paruppu",
+        "masura dali",
+        "red lentil"
+      ],
+      "parQuantity": 500,
+      "isCore": true
+    },
+    {
+      "id": "urad_dal",
+      "name": "Urad Dal",
+      "category": "dal",
+      "defaultUnit": "grams",
+      "aliases": [
+        "ulundhu",
+        "biri dali",
+        "black gram",
+        "split black gram"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "chana_dal",
+      "name": "Chana Dal",
+      "category": "dal",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kadalai paruppu",
+        "buta dali",
+        "split bengal gram"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "whole_moong",
+      "name": "Whole Moong (Green Gram)",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pachai payaru",
+        "muga",
+        "green gram",
+        "whole green gram"
+      ]
+    },
+    {
+      "id": "rajma",
+      "name": "Rajma (Kidney Beans)",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kidney beans",
+        "rangi"
+      ]
+    },
+    {
+      "id": "kabuli_chana",
+      "name": "Chickpeas (Kabuli Chana)",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "konda kadalai",
+        "chhola",
+        "white chickpeas",
+        "garbanzo"
+      ]
+    },
+    {
+      "id": "black_chana",
+      "name": "Black Chana",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kala chana",
+        "karuppu kadalai",
+        "kala buta",
+        "brown chickpeas"
+      ]
+    },
+    {
+      "id": "lobia",
+      "name": "Lobia (Black-Eyed Peas)",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "karamani",
+        "black eyed peas",
+        "cowpea",
+        "alasande"
+      ]
+    },
+    {
+      "id": "green_peas_dried",
+      "name": "Dried Green Peas",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pattani",
+        "matar",
+        "dried peas"
+      ]
+    },
+    {
+      "id": "horse_gram",
+      "name": "Horse Gram",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kollu",
+        "kulthi",
+        "kulatha"
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "vengayam",
+        "piaja",
+        "pyaz",
+        "kanda"
+      ],
+      "parQuantity": 20,
+      "isCore": true
+    },
+    {
+      "id": "shallots",
+      "name": "Shallots (Small Onion)",
+      "category": "aromatic",
+      "defaultUnit": "grams",
+      "aliases": [
+        "chinna vengayam",
+        "sambar onion",
+        "pearl onion",
+        "madras onion"
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "thakkali",
+        "bilati baigana",
+        "tamatar"
+      ],
+      "parQuantity": 15,
+      "isCore": true
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "urulaikizhangu",
+        "alu",
+        "aloo"
+      ],
+      "parQuantity": 12,
+      "isCore": true
+    },
+    {
+      "id": "brinjal",
+      "name": "Brinjal (Eggplant)",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "kathirikai",
+        "baigana",
+        "baingan",
+        "eggplant",
+        "aubergine"
+      ]
+    },
+    {
+      "id": "okra",
+      "name": "Okra (Ladies Finger)",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "vendaikai",
+        "bhendi",
+        "bhindi",
+        "ladies finger"
+      ]
+    },
+    {
+      "id": "drumstick",
+      "name": "Drumstick",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "murungakkai",
+        "sajana chhuin",
+        "moringa",
+        "sahjan"
+      ]
+    },
+    {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "parangikai",
+        "kakharu",
+        "kaddu",
+        "yellow pumpkin"
+      ]
+    },
+    {
+      "id": "ash_gourd",
+      "name": "Ash Gourd",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "poosanikai",
+        "panikakharu",
+        "winter melon",
+        "white pumpkin"
+      ]
+    },
+    {
+      "id": "bottle_gourd",
+      "name": "Bottle Gourd",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "surakkai",
+        "lau",
+        "lauki",
+        "dudhi"
+      ]
+    },
+    {
+      "id": "ridge_gourd",
+      "name": "Ridge Gourd",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "peerkangai",
+        "janhi",
+        "turai"
+      ]
+    },
+    {
+      "id": "snake_gourd",
+      "name": "Snake Gourd",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pudalangai",
+        "chichinda",
+        "padwal"
+      ]
+    },
+    {
+      "id": "bitter_gourd",
+      "name": "Bitter Gourd",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pavakkai",
+        "kalara",
+        "karela"
+      ]
+    },
+    {
+      "id": "raw_banana",
+      "name": "Raw Banana",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "vazhaikai",
+        "kancha kadali",
+        "kachcha kela",
+        "plantain"
+      ]
+    },
+    {
+      "id": "plantain_stem",
+      "name": "Plantain Stem",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "vazhaithandu",
+        "banana stem"
+      ]
+    },
+    {
+      "id": "raw_papaya",
+      "name": "Raw Papaya",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "pappali",
+        "green papaya",
+        "kancha amruta bhanda"
+      ]
+    },
+    {
+      "id": "raw_mango",
+      "name": "Raw Mango",
+      "category": "souring",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "mangai",
+        "kancha amba",
+        "kairi",
+        "green mango"
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "gajar",
+        "caret"
+      ]
+    },
+    {
+      "id": "beans",
+      "name": "French Beans",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "beans",
+        "green beans",
+        "fansi"
+      ]
+    },
+    {
+      "id": "cluster_beans",
+      "name": "Cluster Beans",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kothavarangai",
+        "gawar",
+        "guar"
+      ]
+    },
+    {
+      "id": "green_peas",
+      "name": "Green Peas",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pattani",
+        "matar",
+        "fresh peas"
+      ]
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "gobi",
+        "phulkobi",
+        "cauliflower"
+      ]
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "muttaikose",
+        "bandha kobi",
+        "patta gobi"
+      ]
+    },
+    {
+      "id": "capsicum",
+      "name": "Capsicum (Bell Pepper)",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "kudai milagai",
+        "capsicum",
+        "bell pepper",
+        "shimla mirch"
+      ]
+    },
+    {
+      "id": "radish",
+      "name": "Radish",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "mullangi",
+        "mula",
+        "mooli"
+      ]
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "beetroot",
+        "beet"
+      ]
+    },
+    {
+      "id": "ivy_gourd",
+      "name": "Ivy Gourd",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kovakkai",
+        "kundru",
+        "tindora"
+      ]
+    },
+    {
+      "id": "colocasia",
+      "name": "Colocasia (Arbi)",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "seppankizhangu",
+        "saru",
+        "arbi",
+        "taro root"
+      ]
+    },
+    {
+      "id": "yam",
+      "name": "Yam (Elephant Foot)",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "senaikizhangu",
+        "ola",
+        "suran",
+        "elephant foot yam"
+      ]
+    },
+    {
+      "id": "sweet_potato",
+      "name": "Sweet Potato",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "sakkaravalli kizhangu",
+        "kandamula",
+        "shakarkandi"
+      ]
+    },
+    {
+      "id": "tapioca",
+      "name": "Tapioca (Cassava)",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "maravalli kizhangu",
+        "kappa",
+        "cassava"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "vellarikai",
+        "kakudi",
+        "kheera"
+      ]
+    },
+    {
+      "id": "green_chili",
+      "name": "Green Chili",
+      "category": "aromatic",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "pachai milagai",
+        "kancha lanka",
+        "hari mirch"
+      ],
+      "parQuantity": 20,
+      "isCore": true
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "category": "aromatic",
+      "defaultUnit": "grams",
+      "aliases": [
+        "inji",
+        "ada",
+        "adrak"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "category": "aromatic",
+      "defaultUnit": "grams",
+      "aliases": [
+        "poondu",
+        "rasuna",
+        "lehsun"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "ginger_garlic_paste",
+      "name": "Ginger Garlic Paste",
+      "category": "aromatic",
+      "defaultUnit": "tablespoons",
+      "aliases": [
+        "inji poondu vizhuthu",
+        "ada rasuna",
+        "adrak lehsun paste"
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "category": "leafy-green",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pasalai keerai",
+        "palanga saga",
+        "palak"
+      ]
+    },
+    {
+      "id": "amaranth_greens",
+      "name": "Amaranth Greens",
+      "category": "leafy-green",
+      "defaultUnit": "grams",
+      "aliases": [
+        "mulai keerai",
+        "khada saga",
+        "chaulai",
+        "amaranth"
+      ]
+    },
+    {
+      "id": "fenugreek_leaves",
+      "name": "Fenugreek Leaves (Methi)",
+      "category": "leafy-green",
+      "defaultUnit": "grams",
+      "aliases": [
+        "vendhaya keerai",
+        "methi saga",
+        "methi"
+      ]
+    },
+    {
+      "id": "coriander_leaves",
+      "name": "Coriander Leaves",
+      "category": "herb",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kothamalli",
+        "dhania patra",
+        "cilantro",
+        "hara dhania"
+      ],
+      "parQuantity": 100,
+      "isCore": true
+    },
+    {
+      "id": "mint_leaves",
+      "name": "Mint Leaves",
+      "category": "herb",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pudina",
+        "podina"
+      ]
+    },
+    {
+      "id": "curry_leaves",
+      "name": "Curry Leaves",
+      "category": "herb",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kariveppilai",
+        "karuveppilai",
+        "bhrusanga patra",
+        "kadi patta"
+      ],
+      "parQuantity": 50,
+      "isCore": true
+    },
+    {
+      "id": "drumstick_leaves",
+      "name": "Drumstick Leaves (Moringa)",
+      "category": "leafy-green",
+      "defaultUnit": "grams",
+      "aliases": [
+        "murungai keerai",
+        "sajana saga",
+        "moringa leaves"
+      ]
+    },
+    {
+      "id": "gongura",
+      "name": "Gongura (Sorrel Leaves)",
+      "category": "leafy-green",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pulicha keerai",
+        "sorrel leaves",
+        "ambadi"
+      ]
+    },
+    {
+      "id": "mustard_seeds",
+      "name": "Mustard Seeds",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "kadugu",
+        "sorisha",
+        "rai",
+        "black mustard"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "cumin_seeds",
+      "name": "Cumin Seeds",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "jeeragam",
+        "jeera",
+        "zeera"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "fenugreek_seeds",
+      "name": "Fenugreek Seeds",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "vendhayam",
+        "methi",
+        "methi dana"
+      ],
+      "parQuantity": 100,
+      "isCore": true
+    },
+    {
+      "id": "coriander_seeds",
+      "name": "Coriander Seeds",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "kothamalli vidhai",
+        "dhania",
+        "sabut dhania"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "black_pepper",
+      "name": "Black Pepper",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "milagu",
+        "gol marich",
+        "kali mirch"
+      ],
+      "parQuantity": 100,
+      "isCore": true
+    },
+    {
+      "id": "cloves",
+      "name": "Cloves",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "kirambu",
+        "labanga",
+        "laung"
+      ]
+    },
+    {
+      "id": "cardamom",
+      "name": "Green Cardamom",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "elakkai",
+        "aleicha",
+        "elaichi",
+        "green cardamom"
+      ]
+    },
+    {
+      "id": "black_cardamom",
+      "name": "Black Cardamom",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "badi elaichi",
+        "kali elaichi"
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "pattai",
+        "dalchini",
+        "guja"
+      ]
+    },
+    {
+      "id": "bay_leaf",
+      "name": "Bay Leaf",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "brinji ilai",
+        "tej patta",
+        "tejpatra"
+      ]
+    },
+    {
+      "id": "star_anise",
+      "name": "Star Anise",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "annasi mokku",
+        "chakra phool",
+        "badian"
+      ]
+    },
+    {
+      "id": "fennel_seeds",
+      "name": "Fennel Seeds",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "sombu",
+        "saunf",
+        "perinjeeragam"
+      ]
+    },
+    {
+      "id": "nigella_seeds",
+      "name": "Nigella Seeds",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "karunjeeragam",
+        "kalonji",
+        "kala jeera"
+      ]
+    },
+    {
+      "id": "carom_seeds",
+      "name": "Carom Seeds (Ajwain)",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "omam",
+        "ajwain",
+        "juani"
+      ]
+    },
+    {
+      "id": "asafoetida",
+      "name": "Asafoetida (Hing)",
+      "category": "spice",
+      "defaultUnit": "pinch",
+      "aliases": [
+        "perungayam",
+        "hengu",
+        "hing"
+      ],
+      "parQuantity": 50,
+      "isCore": true
+    },
+    {
+      "id": "dried_red_chili",
+      "name": "Dried Red Chili",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "varamilagai",
+        "sukhi lanka",
+        "sukhila lanka",
+        "sookhi lal mirch"
+      ],
+      "parQuantity": 100,
+      "isCore": true
+    },
+    {
+      "id": "poppy_seeds",
+      "name": "Poppy Seeds",
+      "category": "seed",
+      "defaultUnit": "tablespoons",
+      "aliases": [
+        "kasakasa",
+        "posto",
+        "khus khus"
+      ]
+    },
+    {
+      "id": "dry_ginger",
+      "name": "Dry Ginger",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "sukku",
+        "sonth",
+        "saunth"
+      ]
+    },
+    {
+      "id": "stone_flower",
+      "name": "Stone Flower (Kalpasi)",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "kalpasi",
+        "dagad phool",
+        "black stone flower"
+      ]
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "javitri",
+        "jaipatri"
+      ]
+    },
+    {
+      "id": "nutmeg",
+      "name": "Nutmeg",
+      "category": "spice",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "jathikkai",
+        "jaiphal",
+        "jaifala"
+      ]
+    },
+    {
+      "id": "turmeric_powder",
+      "name": "Turmeric Powder",
+      "category": "spice-powder",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "manjal podi",
+        "manjal",
+        "haladi",
+        "haldi"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "red_chili_powder",
+      "name": "Red Chili Powder",
+      "category": "spice-powder",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "milagai podi",
+        "lanka gunda",
+        "lal mirch"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "coriander_powder",
+      "name": "Coriander Powder",
+      "category": "spice-powder",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "dhaniya podi",
+        "dhania powder"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "cumin_powder",
+      "name": "Cumin Powder",
+      "category": "spice-powder",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "jeeraga podi",
+        "jeera powder"
+      ],
+      "parQuantity": 100,
+      "isCore": true
+    },
+    {
+      "id": "black_pepper_powder",
+      "name": "Black Pepper Powder",
+      "category": "spice-powder",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "milagu podi",
+        "kali mirch powder"
+      ]
+    },
+    {
+      "id": "kashmiri_chili_powder",
+      "name": "Kashmiri Chili Powder",
+      "category": "spice-powder",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "kashmiri milagai podi",
+        "degi mirch"
+      ]
+    },
+    {
+      "id": "garam_masala",
+      "name": "Garam Masala",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "garam masala podi"
+      ],
+      "parQuantity": 100,
+      "isCore": true
+    },
+    {
+      "id": "sambar_powder",
+      "name": "Sambar Powder",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "sambar podi",
+        "sambhar masala"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "rasam_powder",
+      "name": "Rasam Powder",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "rasam podi",
+        "saaru podi"
+      ],
+      "parQuantity": 200,
+      "isCore": true
+    },
+    {
+      "id": "panch_phoron",
+      "name": "Panch Phoron",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "paancha phutana",
+        "pancha phutana",
+        "panch phutana",
+        "bengali five spice"
+      ]
+    },
+    {
+      "id": "chaat_masala",
+      "name": "Chaat Masala",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "chat masala"
+      ]
+    },
+    {
+      "id": "biryani_masala",
+      "name": "Biryani Masala",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "biriyani masala podi"
+      ]
+    },
+    {
+      "id": "goda_masala",
+      "name": "Goda Masala",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "kala masala"
+      ]
+    },
+    {
+      "id": "kitchen_king_masala",
+      "name": "Kitchen King Masala",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "kitchen king"
+      ]
+    },
+    {
+      "id": "pav_bhaji_masala",
+      "name": "Pav Bhaji Masala",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "pav bhaji"
+      ]
+    },
+    {
+      "id": "chana_masala",
+      "name": "Chana Masala Powder",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "chole masala",
+        "channa masala"
+      ]
+    },
+    {
+      "id": "curry_powder",
+      "name": "Curry Powder",
+      "category": "spice-blend",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "curry masala"
+      ]
+    },
+    {
+      "id": "kasuri_methi",
+      "name": "Kasuri Methi (Dried Fenugreek Leaves)",
+      "category": "spice",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "dried methi leaves",
+        "kasoori methi"
+      ]
+    },
+    {
+      "id": "tamarind",
+      "name": "Tamarind",
+      "category": "souring",
+      "defaultUnit": "grams",
+      "aliases": [
+        "puli",
+        "tentuli",
+        "imli"
+      ],
+      "parQuantity": 500,
+      "isCore": true
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "category": "souring",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "elumichai",
+        "lembu",
+        "nimbu"
+      ]
+    },
+    {
+      "id": "kokum",
+      "name": "Kokum",
+      "category": "souring",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "punarpuli",
+        "bhirand"
+      ]
+    },
+    {
+      "id": "amchur",
+      "name": "Amchur (Dry Mango Powder)",
+      "category": "souring",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "mangai podi",
+        "dry mango powder",
+        "aamchur"
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "category": "dairy",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "paal",
+        "khira",
+        "doodh"
+      ],
+      "parQuantity": 2000,
+      "isCore": true
+    },
+    {
+      "id": "curd",
+      "name": "Curd (Yogurt)",
+      "category": "dairy",
+      "defaultUnit": "grams",
+      "aliases": [
+        "thayir",
+        "dahi",
+        "yogurt"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "paneer",
+      "name": "Paneer",
+      "category": "dairy",
+      "defaultUnit": "grams",
+      "aliases": [
+        "chhena",
+        "cottage cheese",
+        "indian cheese"
+      ]
+    },
+    {
+      "id": "ghee",
+      "name": "Ghee",
+      "category": "fat",
+      "defaultUnit": "grams",
+      "aliases": [
+        "nei",
+        "ghia",
+        "clarified butter"
+      ],
+      "parQuantity": 500,
+      "isCore": true
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "category": "dairy",
+      "defaultUnit": "grams",
+      "aliases": [
+        "vennai",
+        "makhan"
+      ]
+    },
+    {
+      "id": "cream",
+      "name": "Fresh Cream",
+      "category": "dairy",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "malai",
+        "heavy cream"
+      ]
+    },
+    {
+      "id": "khoa",
+      "name": "Khoa (Mawa)",
+      "category": "dairy",
+      "defaultUnit": "grams",
+      "aliases": [
+        "khoya",
+        "mawa",
+        "reduced milk"
+      ]
+    },
+    {
+      "id": "condensed_milk",
+      "name": "Condensed Milk",
+      "category": "dairy",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "milkmaid",
+        "sweetened condensed milk"
+      ]
+    },
+    {
+      "id": "cooking_oil",
+      "name": "Cooking Oil",
+      "category": "fat",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "ennai",
+        "tela",
+        "tel",
+        "refined oil",
+        "sunflower oil",
+        "vegetable oil"
+      ],
+      "parQuantity": 2000,
+      "isCore": true
+    },
+    {
+      "id": "coconut_oil",
+      "name": "Coconut Oil",
+      "category": "fat",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "thengai ennai",
+        "nadia tela",
+        "nariyal tel"
+      ]
+    },
+    {
+      "id": "mustard_oil",
+      "name": "Mustard Oil",
+      "category": "fat",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "sorisha tela",
+        "sarson ka tel",
+        "kadugu ennai"
+      ]
+    },
+    {
+      "id": "sesame_oil",
+      "name": "Sesame Oil",
+      "category": "fat",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "nallennai",
+        "gingelly oil",
+        "til oil"
+      ]
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "category": "seasoning",
+      "defaultUnit": "toTaste",
+      "aliases": [
+        "uppu",
+        "luna",
+        "namak"
+      ],
+      "parQuantity": 1000,
+      "isCore": true
+    },
+    {
+      "id": "rock_salt",
+      "name": "Rock Salt",
+      "category": "seasoning",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "kal uppu",
+        "sendha namak",
+        "black salt",
+        "kala namak"
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "category": "sweetener",
+      "defaultUnit": "grams",
+      "aliases": [
+        "sarkarai",
+        "chini",
+        "cheeni"
+      ],
+      "parQuantity": 2000,
+      "isCore": true
+    },
+    {
+      "id": "jaggery",
+      "name": "Jaggery",
+      "category": "sweetener",
+      "defaultUnit": "grams",
+      "aliases": [
+        "vellam",
+        "guda",
+        "gud"
+      ],
+      "parQuantity": 500,
+      "isCore": true
+    },
+    {
+      "id": "palm_jaggery",
+      "name": "Palm Jaggery",
+      "category": "sweetener",
+      "defaultUnit": "grams",
+      "aliases": [
+        "karupatti",
+        "tala guda",
+        "palm sugar"
+      ]
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "category": "sweetener",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "then",
+        "madhu",
+        "shahad"
+      ]
+    },
+    {
+      "id": "cashew",
+      "name": "Cashew",
+      "category": "nut",
+      "defaultUnit": "grams",
+      "aliases": [
+        "mundhiri",
+        "kaju"
+      ]
+    },
+    {
+      "id": "peanut",
+      "name": "Peanut (Groundnut)",
+      "category": "nut",
+      "defaultUnit": "grams",
+      "aliases": [
+        "verkadalai",
+        "china badam",
+        "moongphali",
+        "groundnut"
+      ]
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "category": "nut",
+      "defaultUnit": "grams",
+      "aliases": [
+        "badam",
+        "badam pappu"
+      ]
+    },
+    {
+      "id": "pistachio",
+      "name": "Pistachio",
+      "category": "nut",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pista"
+      ]
+    },
+    {
+      "id": "raisins",
+      "name": "Raisins",
+      "category": "fruit",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kishmish",
+        "ular drakhya",
+        "dry grapes"
+      ]
+    },
+    {
+      "id": "dates",
+      "name": "Dates",
+      "category": "fruit",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pericham pazham",
+        "khajur",
+        "khejur"
+      ]
+    },
+    {
+      "id": "sesame_seeds",
+      "name": "Sesame Seeds",
+      "category": "seed",
+      "defaultUnit": "tablespoons",
+      "aliases": [
+        "ellu",
+        "rasi",
+        "til"
+      ]
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut (Fresh)",
+      "category": "nut",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "thengai",
+        "nadia",
+        "nariyal",
+        "fresh coconut"
+      ]
+    },
+    {
+      "id": "grated_coconut",
+      "name": "Grated Coconut",
+      "category": "nut",
+      "defaultUnit": "cups",
+      "aliases": [
+        "thuruviya thengai",
+        "kora nadia",
+        "grated fresh coconut"
+      ]
+    },
+    {
+      "id": "dry_coconut",
+      "name": "Dry Coconut (Copra)",
+      "category": "nut",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kopparai",
+        "copra",
+        "sukha nariyal"
+      ]
+    },
+    {
+      "id": "coconut_milk",
+      "name": "Coconut Milk",
+      "category": "dairy",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "thengai paal",
+        "nariyal doodh"
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "Egg",
+      "category": "non-veg",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "muttai",
+        "anda"
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "category": "non-veg",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kozhi",
+        "kukuda mansa",
+        "murgh"
+      ]
+    },
+    {
+      "id": "mutton",
+      "name": "Mutton",
+      "category": "non-veg",
+      "defaultUnit": "grams",
+      "aliases": [
+        "aatu kari",
+        "chheli mansa",
+        "gosht",
+        "goat meat"
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "category": "non-veg",
+      "defaultUnit": "grams",
+      "aliases": [
+        "meen",
+        "macha",
+        "machli",
+        "rohu"
+      ]
+    },
+    {
+      "id": "prawns",
+      "name": "Prawns",
+      "category": "non-veg",
+      "defaultUnit": "grams",
+      "aliases": [
+        "eral",
+        "chingudi",
+        "jhinga",
+        "shrimp"
+      ]
+    },
+    {
+      "id": "crab",
+      "name": "Crab",
+      "category": "non-veg",
+      "defaultUnit": "grams",
+      "aliases": [
+        "nandu",
+        "kankada",
+        "kekda"
+      ]
+    },
+    {
+      "id": "dried_fish",
+      "name": "Dried Fish",
+      "category": "non-veg",
+      "defaultUnit": "grams",
+      "aliases": [
+        "karuvadu",
+        "sukhua",
+        "sukha macha"
+      ]
+    },
+    {
+      "id": "vermicelli",
+      "name": "Vermicelli",
+      "category": "grain",
+      "defaultUnit": "grams",
+      "aliases": [
+        "semiya",
+        "seviyan",
+        "sevai"
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "category": "grain",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "pav",
+        "double roti"
+      ]
+    },
+    {
+      "id": "baking_soda",
+      "name": "Baking Soda",
+      "category": "condiment",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "cooking soda",
+        "sodium bicarbonate",
+        "meetha soda"
+      ]
+    },
+    {
+      "id": "baking_powder",
+      "name": "Baking Powder",
+      "category": "condiment",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "baking powder"
+      ]
+    },
+    {
+      "id": "eno",
+      "name": "Eno (Fruit Salt)",
+      "category": "condiment",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "fruit salt"
+      ]
+    },
+    {
+      "id": "food_color",
+      "name": "Food Color",
+      "category": "condiment",
+      "defaultUnit": "pinch",
+      "aliases": [
+        "food colour",
+        "khaana rang"
+      ]
+    },
+    {
+      "id": "rose_water",
+      "name": "Rose Water",
+      "category": "condiment",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "gulab jal",
+        "panneer"
+      ]
+    },
+    {
+      "id": "kewra_water",
+      "name": "Kewra Water",
+      "category": "condiment",
+      "defaultUnit": "teaspoons",
+      "aliases": [
+        "kewda water",
+        "screwpine essence"
+      ]
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron",
+      "category": "spice",
+      "defaultUnit": "pinch",
+      "aliases": [
+        "kungumapoo",
+        "kesar",
+        "zafran"
+      ]
+    },
+    {
+      "id": "vinegar",
+      "name": "Vinegar",
+      "category": "condiment",
+      "defaultUnit": "tablespoons",
+      "aliases": [
+        "sirka",
+        "khal"
+      ]
+    },
+    {
+      "id": "soy_sauce",
+      "name": "Soy Sauce",
+      "category": "condiment",
+      "defaultUnit": "tablespoons",
+      "aliases": [
+        "soya sauce"
+      ]
+    },
+    {
+      "id": "tomato_ketchup",
+      "name": "Tomato Ketchup",
+      "category": "condiment",
+      "defaultUnit": "tablespoons",
+      "aliases": [
+        "tomato sauce",
+        "ketchup"
+      ]
+    },
+    {
+      "id": "papad",
+      "name": "Papad",
+      "category": "condiment",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "appalam",
+        "papadum",
+        "papor"
+      ]
+    },
+    {
+      "id": "corn",
+      "name": "Sweet Corn",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "makkai",
+        "makka choli",
+        "bhutta"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kaalan",
+        "chhatu",
+        "khumb"
+      ]
+    },
+    {
+      "id": "spring_onion",
+      "name": "Spring Onion",
+      "category": "vegetable",
+      "defaultUnit": "grams",
+      "aliases": [
+        "vengaya thal",
+        "hara pyaz",
+        "scallion"
+      ]
+    },
+    {
+      "id": "ripe_mango",
+      "name": "Ripe Mango",
+      "category": "fruit",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "maampazham",
+        "paka amba",
+        "aam"
+      ]
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "fruit",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "vazhaipazham",
+        "kadali",
+        "kela"
+      ]
+    },
+    {
+      "id": "tomato_puree",
+      "name": "Tomato Puree",
+      "category": "condiment",
+      "defaultUnit": "milliliters",
+      "aliases": [
+        "tomato paste",
+        "thakkali paste"
+      ]
+    },
+    {
+      "id": "puffed_gram",
+      "name": "Puffed Gram (Roasted)",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "pottukadalai",
+        "roasted gram",
+        "chutney dal"
+      ]
+    },
+    {
+      "id": "coffee_powder",
+      "name": "Filter Coffee Powder",
+      "category": "beverage",
+      "defaultUnit": "grams",
+      "aliases": [
+        "kaapi podi",
+        "decoction coffee powder",
+        "coffee chicory powder"
+      ]
+    },
+    {
+      "id": "badi",
+      "name": "Badi (Sun-dried Lentil Dumplings)",
+      "category": "legume",
+      "defaultUnit": "grams",
+      "aliases": [
+        "bori",
+        "bari",
+        "wadi",
+        "sun-dried lentil dumpling",
+        "urad dal dumpling"
+      ]
+    },
+    {
+      "id": "chow_chow",
+      "name": "Chow-chow",
+      "category": "vegetable",
+      "defaultUnit": "pieces",
+      "aliases": [
+        "chayote",
+        "bangalore kathirikai",
+        "seemai kathirikai",
+        "iskus",
+        "squash"
+      ]
+    },
+    {
+      "id": "broken_wheat",
+      "name": "Broken Wheat",
+      "category": "grain",
+      "defaultUnit": "grams",
+      "aliases": [
+        "dalia",
+        "cracked wheat",
+        "lapsi",
+        "godhuma rava",
+        "samba rava"
+      ]
+    }
+  ]
+}
